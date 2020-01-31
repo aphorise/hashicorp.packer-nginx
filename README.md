@@ -16,9 +16,11 @@ vagrant ssh ; # ssh to running instance
 # ...
 # ...
 # ...
-vagrant destroy -f ; # when done to remove.
+vagrant destroy -f ... ; # when done to remove.
+vagrant box remove -f ... --provider virtualbox ; # to remove local images.
 ```
 
+See [vagrantup.com/aphorise/boxes/ubuntu16-nginx](https://app.vagrantup.com/aphorise/boxes/ubuntu16-nginx) for generated image.
 
 ## Notes
 This is intended as a mere practise / training excercise - make proper adjustments & reviews where intending to extend toward full pledged usage.
@@ -28,4 +30,3 @@ This is intended as a mere practise / training excercise - make proper adjustmen
 See original template extended for this use case 
  * [aphorise/hashicorp.packer-ubuntu16-xenial-xerus](https://github.com/aphorise/hashicorp.packer-ubuntu16-xenial-xerus)
 ------
-
